@@ -49,7 +49,7 @@
 
     $('#sidePaneContainer').prepend(list);
     var q = $('<input type="text" id="query" placeholder="Search...">');
-    q.css(
+    q.css({
       'width': '100%',
       'margin-bottom': '4px'
     });
