@@ -1,11 +1,15 @@
 (function() {
+  /*
+   * Slingbox list search for newwatch.slingbox.com
+   * by Alexey "Averrin" Nabrodov
+   * version: 2.0
+   */
   $('#notification_area_static, #rc_notification_area_static, #rc_notification_area, #notification_area').remove();
   Sling.watch.slingboxSelector.localDiscoveryProxy();
   window.show = function() {
     var list = $('#receivers_popup_wrapper');
     $('#selector').hide();
     $('#receivers_popup_wrapper').hide();
-    // list.attr('id', 'list');
     $('body').off("click");
     $('body').off("mousemove");
     Sling.watch.slingboxSelector.hideSelector = function() {};
