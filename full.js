@@ -34,7 +34,7 @@
     });
     list.find('.slingboxListRightArrow').css({
       'float': 'right',
-      'top', '-12px'
+      'top': '-12px'
     });
 
     var ul = $('#slingbox_list');
